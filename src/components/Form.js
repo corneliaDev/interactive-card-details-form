@@ -78,6 +78,7 @@ export function Form({
           }
           id="card-number"
           type="text"
+          maxLength="10"
           placeholder="e.g 1234 5678 9123 0000"
           value={number}
           onChange={(e) => onSetNumber(e.target.value)}
